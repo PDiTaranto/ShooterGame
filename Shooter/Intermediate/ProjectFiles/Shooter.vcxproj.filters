@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7CE21010-F407-4889-B76B-574AB3E1175C}</UniqueIdentifier>
+      <UniqueIdentifier>{391A93D5-6102-439D-8D58-639702120F42}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{95504D83-D73F-4981-9BD3-2E6D216BF228}</UniqueIdentifier>
+      <UniqueIdentifier>{A38A8191-9ADA-4B4F-95CA-F0229557D76C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Shooter">
-      <UniqueIdentifier>{BD9BB03A-F89F-402A-87AF-90407382F60A}</UniqueIdentifier>
+      <UniqueIdentifier>{97969446-0F55-4859-AB9C-AFD643FECA38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter\Shooter.Build.cs">
       <Filter>Source\Shooter</Filter>
@@ -33,6 +36,12 @@
       <Filter>Source\Shooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Shooter\Shooter.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter\ShooterAnimInstance.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\ShooterAnimInstance.h">
       <Filter>Source\Shooter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Shooter\ShooterCharacter.cpp">
